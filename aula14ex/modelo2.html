@@ -4,20 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>modelo 1</title>
+    <title>contador</title>
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body onload="carregar()">
     <header>
-        <h1>verificador de idade</h1>
+        <h1>contador</h1>
     </header>
 
     <section>
-        <div>
-          
+        <div id="dados">
+          <p>inicio
+            <input type="number" name="inicio" id="txti">
+          </p>
+          <p>fim
+            <input type="number" name="fim" id="txtf">
+          </p>
+          <p>passo
+            <input type="number" name="passo" id="txtp">
+          </p>
+          <p><input type="button" value="contar" onclick="contar()"></p>
+
         </div>
-        <div>
-            preencha os dados acima para ver o resultado
+        <div id="res">
+            preparando a contagem
         </div>
     </section>
 
